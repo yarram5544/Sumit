@@ -1,0 +1,27 @@
+1) What is a dataprovider and why do we use dataprovider ?
+Ans) It is a container which passes the data to our test method so that the test method can execute with different sets of input data. 
+
+To parameterize the data to test method we are using dataprovider. If we do not use dataprovider its obvious that our test method will have hardcoded values.
+
+Each row how many columns we will be using those will become our parameters.
+
+---------------------------------------------------------------------------------------------------
+2) How to use dataprovider ?
+Ans: We have to create two dimensional object array and pass the hardcoded values by specifying the index of rows and columns. 
+
+------------------------------------------------------------------------------------------------
+
+3) Is it mandatory to return Object[][] from the dataprovider ?
+Ans: No it is not mandatory to return two dimensional array.
+
+------------------------------------------------------------------------------------------------
+4) What are the return types of a dataprovider?
+Ans: Object[] {Single dimensional array} (Object is a predefined datatype, instead of object we can use user defined datatype as well. Few predefined data types are {string, float, integer, boolean}
+Data is a combination of strings.eg,
+
+String[]- string, string, string
+Object[][] {multi dimensional array and Jagged Array}
+Iterator <Object> {Iterators are used when you store the data in form of collection}
+Iterator <Object[]>
+-------------------------------------------------------------------------------------------------
+
